@@ -25,7 +25,8 @@
 
 Raspberry Pi には初期状態で `git` コマンドがインストールされている。Windows や macOS で `git` コマンドがインストールされていない場合は https://git-scm.com/downloads からインストールする。
 
-git で版を登録するときは、誰が操作したのか記録するので、まず、自分の名前とメールアドレスを git に設定する。
+git で版を登録するきは、誰が操作したのか記録するので、まず、自分の名前とメールアドレスを git に設定する。
+なお、版を登録する操作を「コミットする」と表現する。
 
 ```shell
 git config --global user.name "Komura Takaaki"

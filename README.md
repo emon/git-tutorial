@@ -20,3 +20,36 @@
   - 自分が変更した内容を他の人も利用できる
 
 
+
+## Git を使ってみる
+
+git で新しいバージョンを登録するときは、誰が登録したのか記録されるので、まず自分の名前とメールアドレスを git に設定する。
+
+```shell
+git config --global user.name "Komura Takaaki"
+git config --global user.email komura@example.com
+```
+
+
+
+バージョン管理されているこのファイルを取得してみる。
+
+```shell
+git clone https://github.com/emon/git-tutorial.git
+cd git-tutorial
+```
+
+どんなファイルが入っているか確認する。
+
+```shell
+ls -l
+```
+
+これまでのバージョンの履歴を確認する。
+
+```shell
+git log
+```
+
+
+

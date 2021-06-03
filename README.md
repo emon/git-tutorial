@@ -121,3 +121,9 @@ git では、ワークツリー、インデックス、リポジトリという 
   `git commit` で、インデックスの内容をひとまとまりの「コミット」としてリポジトリに登録する。
 
 ![git diff](images/git-diff.png)
+
+```
+git add README.md
+git diff --cached
+git commit -m 'コメント'
+```

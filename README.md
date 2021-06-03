@@ -126,4 +126,5 @@ git では、ワークツリー、インデックス、リポジトリという 
 git add README.md
 git diff --cached
 git commit -m 'コメント'
+git log
 ```

@@ -52,7 +52,25 @@ ls -l
 
 ```shell
 git log
+
+(省略)
+:
+commit 428bef44a1ac2ff9008b787a6dc9cf239b8a918e
+Author: KOMURA Takaaki <komura.takaaki.3v@kyoto-u.ac.jp>
+Date:   Thu Jun 3 12:03:53 2021 +0900
+
+    README.md: Git を使ってみる (前半)
+
+commit 1c761eb4160b11129c648401a8f5357647536a8f
+Author: KOMURA Takaaki <komura.takaaki.3v@kyoto-u.ac.jp>
+Date:   Thu Jun 3 11:47:39 2021 +0900
+
+    README.md: Gitとは？
 ```
 
+登録した日時、人、コメントなどが表示されている。
+`commit` の行に表示されている `428bef44a1ac2ff9008b787a6dc9cf239b8a918e` や `1c761eb4160b11129c648401a8f5357647536a8f` などの文字列が
+それぞれの版を表わす名前になっている。
+git では多人数がそれぞれの好きなタイミングで新しい版を登録するので、通し番号のようなものでは管理できず、一見ランダムに見えるこの長い文字列を版の名前として扱う。これを `コミットID` と呼ぶ。
 
-
+それぞれの版では、一つのファイルだけが更新されている場合もあれば、多数のファイルが更新されている場合もある。
